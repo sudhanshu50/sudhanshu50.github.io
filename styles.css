@@ -88,7 +88,7 @@ input[type="checkbox"] {
 
 .sectionA {
   position: relative;
-  background-image: linear-gradient(to right, #ff85a8, #ffcd68);
+  background: linear-gradient(to right, rgba(255,102,196,1) 0%, rgba(255,221,90,1) 100%);
 }
 
 .mainImg {
@@ -127,21 +127,16 @@ input[type="checkbox"] {
   letter-spacing: 1px;
 }
 
-hr {
-  height: 1em;
-  color: white;
-  background-color: #fafafa;
-}
 
 /* SectionB */
 
 .sectionB {
-  background-image: linear-gradient(to right, #ff85a8, #ffcd68);
+    background: linear-gradient(to right, rgba(255,102,196,1) 0%, rgba(255,221,90,1) 100%);
   width: 100%;
 }
 
 .secBHead {
-  font-size: 3vw;
+  font-size: 4rem;
   letter-spacing: 0.2vw;
   color: white;
   font-family: sans-serif;
@@ -163,17 +158,17 @@ hr {
 .itemImg {
   height: 250px;
   width: 250px;
-  border-top-right-radius: 20%;
+  border-top-right-radius: 21%;
   object-fit: cover;
 }
 
 .imgContainer {
   display: inline-block;
   padding: 22px 8px;
-  border-top-right-radius: 16%;
-  border-bottom-left-radius: 26%;
+  border-top-right-radius: 21%;
+  border-bottom-left-radius: 21%;
   background-color: white;
-  height: 385px;
+  height: 340px;
   width: 285px;
   text-align: center;
   cursor: pointer;
@@ -183,7 +178,7 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2rem;
+  gap: 10px;
 }
 
 .itemName {
@@ -222,8 +217,8 @@ hr {
   }
 
   .imgContainer {
-    border-top-right-radius: 16%;
-    border-bottom-left-radius: 26%;
+    border-top-right-radius: 21%;
+    border-bottom-left-radius: 21%;
   }
 
   .menu {
@@ -258,8 +253,8 @@ hr {
   }
 
   .imgContainer {
-    border-top-right-radius: 16%;
-    border-bottom-left-radius: 26%;
+    border-top-right-radius: 21%;
+    border-bottom-left-radius: 21%;
   }
 
   .menu {
@@ -297,8 +292,8 @@ hr {
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
   .imgContainer {
-    border-top-right-radius: 16%;
-    border-bottom-left-radius: 26%;
+    border-top-right-radius: 21%;
+    border-bottom-left-radius: 21%;
   }
 
   .cardContain {
